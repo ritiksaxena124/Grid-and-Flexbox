@@ -6,7 +6,7 @@ body {
   width: 90%;
   margin: 0 auto;
   position: relative;
-  background: url("background1.jpg");
+  background: url("/background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
