@@ -80,7 +80,7 @@
   }
   
   .boxes:hover {
-    background-color: rgba(196, 158, 158, 0.747);
+    background-color: rgb(255, 226, 226);
     color: black;
     font-weight: 600;
     border: 1px solid black;
