@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Leckerli One';
+  }
+  
+  .header {
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    color: rgb(29, 3, 3);
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Leckerli One', cursive;
+  
+  }
+  p{
+      font-size: 30px;
+  }
+  .box {
+    border: 2px solid white;
+    padding: 10px;
+    max-width: 90%;
+    position: relative;
+    margin: 40px auto;
+    border-radius: 10px;
+  }
+  h2{
+      font-size: 30px;
+      padding: 20px;
+  }
+  .box__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    background-color: #f84d09;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .order0>.boxes{
+    order: 0;
+  }
+
+  .order1>.box2{
+    order: 1;
+  }
+  .order1>.box4{
+    order: -1;
+  }
+  .order2>.box1{
+    order: 1;
+  }
+  .order2>.box2{
+    order: 2;
+  }
+  .boxes {
+    padding: 24px;
+    font-size: 24px;
+    border: 1px solid white;
+    margin: 10px;
+    background-color: rgb(29, 3, 3);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .boxes:hover {
+    background-color: rgb(255, 226, 226);
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+  }
+  
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .box, .header {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.5);
+      border: 1px solid white;
+    }
+  }
+  

@@ -4,22 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flex-direction</title>
+    <title>align-self</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Leckerli One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="CSS/flex__direction.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Align__Self.css" />
   </head>
   <body>
     <div class="container">
       <div class="header">
         <h1>Flex with Flexbox</h1>
         <p>
-          The <b> flex-direction</b> property defines in which direction the container
-          wants to stack the flex items.
+            The <b> align-self </b>property specifies the alignment for the <b> selected item</b> inside the flexible container.
+          <br>
+            <p>The <b> align-self</b> property overrides the default alignment set by the container's align-items property.</p>
         </p>
       </div>
       <div class="box">
-        <h2>flex-direction: row</h2>
+        <h2>Item 2 is aligned "flex-start"</h2>
         <div class="box__container box__container1">
           <div class="boxes box1">Item 1</div>
           <div class="boxes box2">Item 2</div>
@@ -29,7 +30,7 @@
         </div>
       </div>
       <div class="box">
-        <h2>flex-direction: row-reverse</h2>
+        <h2>Item 2 is aligned "flex-end"</h2>
         <div class="box__container box__container2">
           <div class="boxes box1">Item 1</div>
           <div class="boxes box2">Item 2</div>
@@ -39,7 +40,7 @@
         </div>
       </div>
       <div class="box">
-        <h2>flex-direction: column</h2>
+        <h2>Item 2 is aligned "center"</h2>
         <div class="box__container box__container3">
           <div class="boxes box1">Item 1</div>
           <div class="boxes box2">Item 2</div>
@@ -49,7 +50,7 @@
         </div>
       </div>
       <div class="box">
-        <h2>flex-direction: column-reverse</h2>
+        <h2>Item 2 is aligned "stretch"</h2>
         <div class="box__container box__container4">
           <div class="boxes box1">Item 1</div>
           <div class="boxes box2">Item 2</div>

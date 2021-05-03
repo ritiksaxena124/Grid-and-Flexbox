@@ -4,58 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flex-direction</title>
+    <title>Flex Wrap</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Leckerli One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="CSS/flex__direction.css" />
+<link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/flex__wrap.css" />
   </head>
   <body>
     <div class="container">
       <div class="header">
         <h1>Flex with Flexbox</h1>
         <p>
-          The <b> flex-direction</b> property defines in which direction the container
-          wants to stack the flex items.
+          The <b> flex-wrap </b> property specifies whether the flex items should wrap or not.
+          <br>
+          <h4> (Change the size of the window to see the flex-wrap effect)</h4>
         </p>
       </div>
       <div class="box">
-        <h2>flex-direction: row</h2>
+        <h2>flex-wrap: nowrap
+        </h2>
         <div class="box__container box__container1">
           <div class="boxes box1">Item 1</div>
           <div class="boxes box2">Item 2</div>
           <div class="boxes box3">Item 3</div>
           <div class="boxes box4">Item 4</div>
           <div class="boxes box5">Item 5</div>
+          <div class="boxes box5">Item 6</div>
+          <div class="boxes box5">Item 7</div>
+          <div class="boxes box5">Item 8</div>
+          <div class="boxes box5">Item 9</div>
         </div>
       </div>
       <div class="box">
-        <h2>flex-direction: row-reverse</h2>
+        <h2>flex-wrap: wrap</h2>
         <div class="box__container box__container2">
           <div class="boxes box1">Item 1</div>
           <div class="boxes box2">Item 2</div>
           <div class="boxes box3">Item 3</div>
           <div class="boxes box4">Item 4</div>
           <div class="boxes box5">Item 5</div>
+          <div class="boxes box5">Item 6</div>
+          <div class="boxes box5">Item 7</div>
+          <div class="boxes box5">Item 8</div>
+          <div class="boxes box5">Item 9</div>
         </div>
       </div>
       <div class="box">
-        <h2>flex-direction: column</h2>
+        <h2>flex-wrap: wrap-reverse</h2>
         <div class="box__container box__container3">
           <div class="boxes box1">Item 1</div>
           <div class="boxes box2">Item 2</div>
           <div class="boxes box3">Item 3</div>
           <div class="boxes box4">Item 4</div>
           <div class="boxes box5">Item 5</div>
-        </div>
-      </div>
-      <div class="box">
-        <h2>flex-direction: column-reverse</h2>
-        <div class="box__container box__container4">
-          <div class="boxes box1">Item 1</div>
-          <div class="boxes box2">Item 2</div>
-          <div class="boxes box3">Item 3</div>
-          <div class="boxes box4">Item 4</div>
-          <div class="boxes box5">Item 5</div>
+          <div class="boxes box5">Item 6</div>
+          <div class="boxes box5">Item 7</div>
+          <div class="boxes box5">Item 8</div>
+          <div class="boxes box5">Item 9</div>
         </div>
       </div>
     </div>
