@@ -29,26 +29,13 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 100px);
   grid-gap: 10px;
-  color: black;
+  color: #000000;
   font-size: 30px;
   padding: 10px;
   border-radius: 10px;
 }
-/* for making glassy div */
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .sheet{
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid white;
-  }
-  .container {
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgb(224, 78, 9, 1);
-    border: 1px solid white;
-  }
-}
+
+
 
 .box {
   border: 2px solid black;
@@ -146,6 +133,42 @@ h2{
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .container2 {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgb(224, 78, 9, 1);
+    border: 1px solid white;
+  }
+}
+
+
+/* Media Queries */
+/* For Grid CheatSheet */
+@media only screen and (max-width: 500px){
+  h1{
+    font-size: 2em;
+  }
+  .container{
+    font-size: 1em;
+  }
+}@media only screen and (min-width: 500px) and (max-width: 620px){
+
+  .container{
+    font-size: 1.5em;
+  }
+  .box{
+    margin: 10px;
+  }
+}
+
+/* for making glassy div */
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .sheet{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+  }
+  .container {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgb(224, 78, 9, 1);
