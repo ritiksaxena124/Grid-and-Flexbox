@@ -74,10 +74,10 @@ h2{
   flex: 1 0 250px;
 }
 .box__container3 > .box1{
-  flex: 1 1 250px;
+  flex: 1 0 250px;
 }.box__container3 > .box2{
   flex: 1 2 250px;
-}.box__container3 > .box1{
+}.box__container3 > .box3{
   flex: 1 3 250px;
 }
 .boxes:hover {
